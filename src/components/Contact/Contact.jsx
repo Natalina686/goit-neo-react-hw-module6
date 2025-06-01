@@ -12,7 +12,7 @@ export default function Contact({contact}) {
     return (
        <div className={css.contact}>
       <p className={css.text}>
-        {contact.name}: <span className={css.number}>{contact.phone}</span>
+        {contact.name}: <span className={css.number}>{contact.number}</span>
       </p>
       <button className={css.button} onClick={handleDelete}>
         Delete
